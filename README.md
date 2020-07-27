@@ -18,15 +18,17 @@ To check the dataset, for X_train.Shape , We will get (60000, 28, 28). As you mi
 To be able to use the dataset in Keras API, we need 4-dims numpy arrays. However, as we see above, our array is 3-dims. In addition, we must normalize our data as it is always required in neural network models. We can achieve this by dividing the RGB codes to 255.
 
 
-## Building the Convolutional Neural Network
+## Building the Convolutional Neural Network :
 
 We will build our model by using high level Keras API which uses either TensorFlow or Theano on the backend. We will import the Sequential Model from Keras and add Conv2D, MaxPooling, Flatten, Dropout, and Dense layers.
 
 
-## Compiling and Fitting the Model
+## Compiling and Fitting the Model :
+
 Now it is time to set an optimizer with a given loss function which uses a metric. Then, we can fit the model by using our train data.
 
-## Evaluating the Model
+## Evaluating the Model :
+
 The results are pretty good for 10 epochs and for such simple model. We achieved 98.5% accuracy with such basic model.
 
 
